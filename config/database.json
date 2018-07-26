@@ -1,5 +1,5 @@
 {
-  "type": "mongodb",
+  "dbType": "mongodb",
   "mongodb": {
     "protocol": "mongodb",
     "host": "localhost",
@@ -10,7 +10,6 @@
     "protocol": "mysql",
     "host": "localhost",
     "port": 3306,
-    "database": "test",
     "user": "root",
     "password": "",
     "datatable": "node_microblog"
